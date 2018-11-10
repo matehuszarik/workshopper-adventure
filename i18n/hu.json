@@ -59,7 +59,7 @@
     }
   },
   "ui": {
-    "return": "Gepeld be a '{{appName}}' szot, hogy lasd a menut.\n",
+    "return": "Gepeld be a '{{appName}}' parancsot, hogy lasd a menut.\n",
     "usage": "Hasznalat: {{appName}} {{mode}} megoldas.js"
   },
   "progress": {
