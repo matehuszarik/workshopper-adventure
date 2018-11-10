@@ -1,0 +1,4 @@
+ - Az instrukciok megjelenitesehez, futtasd: `{appname} print`
+ - A tesztek vegrehajtasahoz, futtasd: `{appname} run program.js`
+ - A programod ellenorzesehez, futtasd: `{appname} verify program.js`
+ - Segitseghez, futtasd: `{appname} help`

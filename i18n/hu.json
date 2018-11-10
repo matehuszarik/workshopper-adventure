@@ -1,0 +1,83 @@
+{
+  "subtitle": "\u001b[23mValassz egy feladatot es nyomd meg az \u001b[3mEnter\u001b[23m-t a kezdeshez",
+  "menu": {
+    "credits": "KREDIT",
+    "exit": "KILEPES",
+    "help": "SEGITSEG",
+    "completed": "TELJESITVE",
+    "language": "VALASSZ NYELVET",
+    "cancel": "MEGSEM",
+    "update": "FRISSITES KERESESE"
+  },
+  "language": {
+    "_current": "JELENLEGI",
+    "de": "Nemet (Deutsch)",
+    "en": "Angol (English)",
+    "fr": "Francia (français)",
+    "ja": "Japan (日本語)",
+    "zh-cn": "Kinai (简体中文)",
+    "zh-tw": "Tajvani (繁體中文)",
+    "es": "Spanyol (Español)",
+    "pt-br": "Portugal (Português)",
+    "vi": "Vietnam (Tiếng Việt)",
+    "ru": "Orosz (Русский)",
+    "ko": "Koreai (한국어)",
+    "pl": "Lengyel (Polski)",
+    "nb-no": "Norveg (Norsk)",
+    "it": "Olasz (Italiano)",
+    "uk": "Ukran (Українська)",
+    "sr": "Szerb (српски)",
+    "hu": "Magyar"
+  },
+  "error": {
+    "exercise": {
+      "none_active": "Nincs aktiv feladat. Valassz egyet a menubol.",
+      "missing": "Nincs ilyen feladat: {{{name}}}",
+      "unexpected_error": "Nem sikerult {{mode}}: {{{err}}}",
+      "missing_file": "HIBA: {{{exerciseFile}}} nem letezik!",
+      "not_a_workshopper": "HIBA: {{{exerciseFile}}} nem workshopper feladat.",
+      "method_not_required": "{{method}} nem szukseges ebben a feladatban.",
+      "preparing": "Hiba a feladat elokesziteseben: {{{err}}}",
+      "loading": "Hiba a feladat betoltese soran: {{{err}}}"
+    },
+    "no_uncomplete_left": "Nincs tobb befejezetlen feladat a jelenlegi utan",
+    "cleanup": "Hiba: {{{err}}}",
+    "notty": "Please start this in a tty-compatible terminal program."
+  },
+  "solution": {
+    "fail": {
+      "title": "HIBA",
+      "message": "A {{{currentExercise.name}}} feladat megoldas nem sikerult. Probald meg ujra!\n"
+    },
+    "pass": {
+      "title": "SIKER",
+      "message": "A {{{currentExercise.name}}} feladat megoldasod sikerult!"
+    },
+    "notes": {
+      "compare": "Itt a hivatalos megoldas ha ossze szeretned hasonlitani:\n",
+      "load_error": "HIBA: Problema tortent a megoldas megjelenitesekor: {{{err}}}"
+    }
+  },
+  "ui": {
+    "return": "Gepeld be a '{{appName}}' szot, hogy lasd a menut.\n",
+    "usage": "Hasznalat: {{appName}} {{mode}} megoldas.js"
+  },
+  "progress": {
+    "reset": "{{title}} statusz visszaallitasa",
+    "finished": "Befejezted az osszes kihivast! Hooray!\n",
+    "state": "Feladat {{count}} / {{amount}}",
+    "remaining": {
+      "one": "Egy kihivas van hatra.",
+      "other": "{{count}} kihivas van hatra."
+    }
+  },
+  "credits": {
+    "title": "{{appName}} is brought to you by the following dedicated hackers:",
+    "name": "Name",
+    "user": "GitHub Username"
+  },
+  "update": {
+    "latest_version": "{{name}}**@{{version}}** is already at the latest version.\n\n**Congratulations!**",
+    "now": "{{name}}_@{{current}}_ is out-of-date, updating to **{{latest}}** with \n\n```bash\n{{cmd}}\n```\n"
+  }
+}
